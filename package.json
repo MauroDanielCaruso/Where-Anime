@@ -1,0 +1,10 @@
+{
+  "name": "whereanime",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd anime-api/cmd && go run main.go\" \"cd anime-frontend && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,1 +1,4 @@
 /anime-frontend/node_modules
+/node_modules
+/anime-frontend/.vite
+*.json
